@@ -1,0 +1,33 @@
+{
+  "name": "vue_notes",
+  "version": "1.0.0",
+  "description": "New tab page is now notes",
+  "main": "index.js",
+  "author": "Justin <justin@kiai.io>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "rimraf dis && webpack --progress --colors --watch",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.3",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "milligram": "^1.3.0",
+    "normalize.css": "^7.0.0",
+    "simplemde": "^1.11.2",
+    "vue": "^2.4.2"
+  }
+}
