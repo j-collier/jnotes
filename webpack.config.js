@@ -37,7 +37,7 @@ const config = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ title: "New Tab | Zenotes" })
+    new HtmlWebpackPlugin({ title: "New Tab | Jnotes" })
   ]
 };
 
