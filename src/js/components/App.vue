@@ -64,7 +64,9 @@ function addNote() {
   this.selectNote(note);
   save(this.notes);
 }
-function deleteNote() {
+function deleteNote(note) {
+  this.notes.shift(note);
+  save(this.notes);
 } 
 function save(notes) {
   if (!notes) return;
